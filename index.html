@@ -1,0 +1,303 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="ACM,Online Judge,ZJNU,浙江师范大学" />
+    <meta name="description" content="浙江师范大学在线评测系统" />
+    <title>ZJNU OJ</title>
+    <!-- pace -->
+    <script src="https://cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="https://cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+    <!-- twitter bootstrap -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- bootstrap material design -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.4.1/css/roboto.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.4.1/css/material-fullpalette.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.4.1/css/ripples.min.css" rel="stylesheet" />
+    <!-- site styles -->
+    <link href="assets/css/index.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- navbar-material-blue-grey-500 -->
+    <!--navbar-material-blue-700-->
+    <div class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="javascript:void(0)">ZJNU OJ</a>
+            </div>
+            <div class="navbar-collapse collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="javascript:void(0)">Home</a></li>
+                    <li><a href="javascript:void(0)">Problems</a></li>
+                    <li class="dropdown">
+                        <a href="#" data-target="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Contests
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="javascript:void(0)">running</a></li>
+                            <li><a href="javascript:void(0)">completed</a></li>
+                            <li><a href="javascript:void(0)">scheduling</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0)">Status</a></li>
+                    <li><a href="javascript:void(0)">Rank</a></li>
+                    <li><a href="javascript:void(0)">FAQ</a></li>
+                    <li><a href="javascript:void(0)">Forum</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="javascript:void(0)">
+                            Kevin Tan
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <div class="badge-wrapper">
+                                <i class="mdi-social-notifications"></i>
+                                <span class="badge label-danger txt">5</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="mdi-action-settings"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="mdi-action-settings-power"></i>
+                            <!--<i class="mdi-action-input"></i>-->
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- big show -->
+    <div class=" screen">
+        <div class="screen-filter"></div>
+        <div class="screen-body">
+            <div class="container-fluid text-wrapper">
+                <img src="assets/images/ACM-bg-transparent.png" />
+                <h1 class="">Welcome to ZJNU Online Judge System</h1>
+                <button type="button" class="btn btn-warning btn-lg btn-raised">
+                    CHALLENGE !
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="banner">
+        <p>Read carefully <a href="javascript:void(0)">Frequently Asked Questions</a>. Choose a problem, solve it and submit your solution.</p>
+        <div class="btn-row">
+            <div class="btn-group">
+                <a href="javascript:void(0)" class="btn btn-inverse">C-Free</a>
+                <a href="bootstrap-elements.html" data-target="#" class="btn btn-inverse dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="javascript:void(0)">C-Free 4.0</a></li>
+                    <li><a href="javascript:void(0)">C-Free 5.0</a></li>
+                    <li class="divider"></li>
+                    <li><a href="javascript:void(0)">Register Code</a></li>
+                </ul>
+            </div>
+            <a href="javascript:void(0)" class="btn btn-info btn-raised">VC++ Lite</a>
+            <div class="btn-group">
+                <a href="javascript:void(0)" class="btn btn-success btn-raised">JDK 1.8.0_60</a>
+                <a href="bootstrap-elements.html" data-target="#" class="btn btn-success dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="javascript:void(0)">x64</a></li>
+                    <li><a href="javascript:void(0)">x86</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!--info row -->
+    <div class="container list-content">
+        <div class="row">
+            <div class="col-md-4 col-xs-12">
+                <div class="panel panel-inverse panel-card">
+                    <div class="panel-heading">
+                        <a href="javascript:void(0)" class="btn btn-default btn-fab btn-raised mdi-navigation-more-vert panel-card-btn"></a>
+                        <h3 class="panel-title">
+                            <i class="mdi-social-whatshot"></i>
+                            <span>Latest News</span>
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="list-group">
+                            <li class="list-group-line">
+                                <a href="javascript:void(0)" class="block txt text-danger">
+                                    <i class="mdi-av-volume-up"></i>ZJNU ACM Programming Contest is comming!
+                                </a>
+                            </li>
+                            <li class="list-group-line">
+                                <a href="javascript:void(0)" class="block txt">
+                                    <i class="mdi-av-volume-up"></i>ZJNU ACM Programming Contest is comming!
+                                </a>
+                            </li>
+                            <li class="list-group-line">
+                                <a href="javascript:void(0)" class="block txt">
+                                    <i class="mdi-av-volume-up"></i>ZJNU ACM Programming Contest is comming!
+                                </a>
+                            </li>
+                            <li class="list-group-line">
+                                <a href="javascript:void(0)" class="block txt">
+                                    <i class="mdi-av-volume-up"></i>ZJNU ACM Programming Contest is comming!
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="panel panel-inverse panel-card">
+                    <div class="panel-heading">
+                        <a href="javascript:void(0)" class="btn btn-default btn-fab btn-raised mdi-navigation-more-vert panel-card-btn"></a>
+                        <h3 class="panel-title">
+                            <i class="mdi-content-flag"></i>
+                            <span>Latest Contests</span>
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="list-group">
+                            <li class="list-group-line">
+                                <a href="javascript:void(0)" class="block txt">
+                                    <i class="mdi-image-lens text-success"></i>ZJNU ACM Programming Contest is comming!
+                                </a>
+                            </li>
+                            <li class="list-group-line">
+                                <a href="javascript:void(0)" class="block txt">
+                                    <i class="mdi-image-lens text-danger"></i>ZJNU ACM Programming Contest is comming!
+                                </a>
+                            </li>
+                            <li class="list-group-line">
+                                <a href="javascript:void(0)" class="block txt">
+                                    <i class="mdi-image-lens text-muted"></i> ZJNU ACM Programming Contest is comming!
+                                </a>
+                            </li>
+                            <li class="list-group-line">
+                                <a href="javascript:void(0)" class="block txt">
+                                    <i class="mdi-image-lens text-muted"></i>ZJNU ACM Programming Contest is comming!
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="panel panel-inverse panel-card">
+                    <div class="panel-heading">
+                        <a href="javascript:void(0)" class="btn btn-default btn-fab btn-raised mdi-navigation-more-vert panel-card-btn"></a>
+                        <h3 class="panel-title">
+                            <i class="mdi-communication-forum"></i>
+                            <span>Latest Topics</span>
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="list-group">
+                            <li class="list-group-line">
+                                <a href="javascript:void(0)" class="block txt">
+                                    <i class="mdi-editor-insert-comment"></i>ZJNU ACM Programming Contest is comming!
+                                </a>
+                            </li>
+                            <li class="list-group-line">
+                                <a href="javascript:void(0)" class="block txt">
+                                    <i class="mdi-editor-insert-comment"></i>ZJNU ACM Programming Contest is comming!
+                                </a>
+                            </li>
+                            <li class="list-group-line">
+                                <a href="javascript:void(0)" class="block txt">
+                                    <i class="mdi-editor-insert-comment"></i>ZJNU ACM Programming Contest is comming!
+                                </a>
+                            </li>
+                            <li class="list-group-line">
+                                <a href="javascript:void(0)" class="block txt">
+                                    <i class="mdi-editor-insert-comment"></i>ZJNU ACM Programming Contest is comming!
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <a href="javascript:void(0)" class="to-top btn btn-inverse btn-fab btn-raised mdi-hardware-keyboard-arrow-up"></a>
+        <div class="links container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-xs-12  text-center">
+                    <a href="https://github.com/zjnu-acm/judge" class="block plain-link">
+                        <img src="assets/images/github.png" />
+                        <p>View Source on Github</p>
+                    </a>
+                </div>
+                <div class="col-md-3 col-xs-12  link-col">
+                    <p class="lead bold text-uppercase">MAP</p>
+                    <ul class="list-unstyled">
+                        <li><a href="javascript:void(0)">Home</a></li>
+                        <li><a href="javascript:void(0)">FAQ</a>&nbsp;|&nbsp;<a href="javascript:void(0)">Forum</a></li>
+                        <li><a href="javascript:void(0)">Status</a>&nbsp;|&nbsp;<a href="javascript:void(0)">Rank</a></li>
+                        <li><a href="javascript:void(0)">Problems</a>&nbsp;|&nbsp;<a href="javascript:void(0)">Contests</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-xs-12 link-col">
+                    <p class="lead bold text-uppercase">Links</p>
+                    <ul class="list-unstyled">
+                        <li><a target="_blank" href="http://acdream.info/">AC Dream</a></li>
+                        <li><a target="_blank" href="http://codeforces.com/">Codeforce</a></li>
+                        <li><a target="_blank" href="http://acmicpc.info/">ACM/ICPC信息站</a></li>
+                        <li>
+                            <a target="_blank" href="http://acm.hdu.edu.cn/">HDU</a>&nbsp;|&nbsp;
+                            <a target="_blank" href="http://acm.zju.edu.cn/">
+                                ZOJ
+                            </a>&nbsp;|&nbsp;
+                            <a target="_blank" href="http://poj.org/">
+                                POJ
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 link-col">
+                    <p class="lead bold text-uppercase">Contacts</p>
+                    <ul class="list-unstyled">
+                        <li><strong>Mail</strong>&nbsp;:&nbsp;<a href="mailto:#">stkevintan@foxmail.com</a></li>
+                        <li><strong>Administrator</strong>&nbsp;:&nbsp;<a href="javascript:void(0)">coach</a></li>
+                        <li><a href="javascript:void(0)" class="text-danger">Feedback Board</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copy-info">
+            <p class="text-center">Powered by ZJNU ACM Team ©2010-2015. Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" class="text-white">Apache License, Version 2.0</a>. Design and Code by: <a href="http://kevinsfork.info" class="text-white">Kevin Tan</a> |  <a class="text-white" href="https://github.com/zhanhb">Zhan HuangBin</a>.</p>
+        </div>
+    </div>
+    <!-- jquery lib -->
+    <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <!-- twitter bootstrap -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- bootstrap material design -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.4.1/js/material.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.4.1/js/ripples.min.js"></script>
+    <!-- site scripts -->
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
